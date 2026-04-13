@@ -7,7 +7,7 @@
       "request": "launch",
       "program": "${workspaceFolder}/octofit-tracker/backend/manage.py",
       "cwd": "${workspaceFolder}/octofit-tracker/backend",
-      "args": ["runserver", "0.0.0.0:8000"],
+      "args": ["runserver", "0.0.0.0:8000", "--noreload"],
       "django": true,
       "justMyCode": true,
       "python": "${workspaceFolder}/.venv/bin/python",
